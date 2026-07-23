@@ -1,12 +1,8 @@
-import React, { useContext } from 'react'
-import UsernameContext from '../context/UserContext'
+import React from 'react'
 
-const Home = () => {
-  let {username} = useContext(UsernameContext)
+export const Home = () => {
   return (
-    <UsernameContext>
-      <h1>Hello {username}!!! This is home</h1>
-    </UsernameContext>
+    <div>Home</div>
   )
 }
 

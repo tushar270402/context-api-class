@@ -1,14 +1,13 @@
 import React from 'react'
-import UsernameContext from './context/UserContext'
-import Home from './components/Home'
+import Navbar from './components/Navbar'
+import Section from './components/Section'
 
 const App = () => {
-
-  let username = "Tushar"
   return (
-    <UsernameContext.Provider value={{username}}>
-      <Home/>
-    </UsernameContext.Provider>
+    <>
+      <Navbar/>
+      <Section/>
+    </>
   )
 }
 
